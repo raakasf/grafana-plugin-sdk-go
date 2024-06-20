@@ -10,17 +10,20 @@ require (
 	github.com/getkin/kin-openapi v0.124.0
 	github.com/google/go-cmp v0.6.0
 	github.com/google/uuid v1.6.0
+	github.com/grafana/otel-profiling-go v0.5.1
+	github.com/grafana/pyroscope-go/godeltaprof v0.1.7
 	github.com/grpc-ecosystem/go-grpc-middleware/providers/prometheus v1.0.1
 	github.com/hashicorp/go-hclog v1.6.3
 	github.com/hashicorp/go-plugin v1.6.1
 	github.com/invopop/jsonschema v0.12.0 // for schema codgen+extraction
 	github.com/json-iterator/go v1.1.12
+	github.com/jszwedko/go-datemath v0.1.1-0.20230526204004-640a500621d6
 	github.com/magefile/mage v1.15.0
 	github.com/mattetti/filebuffer v1.0.1
 	github.com/mitchellh/reflectwalk v1.0.2
 	github.com/olekukonko/tablewriter v0.0.5
-	github.com/prometheus/client_golang v1.19.0
-	github.com/prometheus/common v0.53.0
+	github.com/prometheus/client_golang v1.19.1
+	github.com/prometheus/common v0.54.0
 	github.com/stretchr/testify v1.9.0
 	github.com/unknwon/bra v0.0.0-20200517080246-1e3013ecaff8
 	github.com/urfave/cli v1.22.15
@@ -40,7 +43,7 @@ require (
 	golang.org/x/sys v0.20.0
 	golang.org/x/text v0.15.0
 	google.golang.org/grpc v1.64.0
-	google.golang.org/protobuf v1.33.0
+	google.golang.org/protobuf v1.34.0
 	k8s.io/kube-openapi v0.0.0-20240220201932-37d671a357a5 // @grafana/grafana-app-platform-squad
 )
 
@@ -74,8 +77,7 @@ require (
 	github.com/hashicorp/yamux v0.1.1 // indirect
 	github.com/invopop/yaml v0.2.0 // indirect
 	github.com/josharian/intern v1.0.0 // indirect
-	github.com/jszwedko/go-datemath v0.1.1-0.20230526204004-640a500621d6 // indirect
-	github.com/klauspost/compress v1.16.7 // indirect
+	github.com/klauspost/compress v1.17.3 // indirect
 	github.com/klauspost/cpuid/v2 v2.2.5 // indirect
 	github.com/mailru/easyjson v0.7.7 // indirect
 	github.com/mattn/go-colorable v0.1.13 // indirect
